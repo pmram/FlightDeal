@@ -31,7 +31,7 @@ for destination in sheet_data:
     if flight is None:
         continue
 
-    if flight.price < destination["lowestPrice"]]:
+    if flight.price < destination["lowestPrice"]:
         text = f"\nLow price alert! Only {flight.price}€ to fly from {flight.origin_city}-{flight.origin_airport} to" \
                f" {flight.destination_city}-{flight.destination_airport}," \
                f" from {flight.out_date} to {flight.return_date}."
